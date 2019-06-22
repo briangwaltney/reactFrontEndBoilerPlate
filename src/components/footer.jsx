@@ -4,7 +4,7 @@ class Footer extends Component {
   state = {}
   render() {
     return (
-      <footer>
+      <footer className='container'>
         <p>© {new Date().getFullYear()} Brian Gwaltney</p>
       </footer>
     );
